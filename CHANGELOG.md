@@ -2,9 +2,20 @@
 
 ## [Unreleased][]
 
-[Unreleased]: https://github.com/trussed-dev/serde-indexed/compare/0.1.1...HEAD
+[Unreleased]: https://github.com/trussed-dev/serde-indexed/compare/0.1.2...HEAD
 
 -
+## [v0.1.2][] (2025-05-26)
+
+- Add full support for generics ([#11][])
+- skip_serializing_if no longer incorrectly affects deserialization (fixes [#2][])
+- No longer fails deserialising maps with unknown fields ([#19][])
+
+[v0.1.1]: https://github.com/trussed-dev/serde-indexed/compare/0.1.1...0.1.2
+[#2]: https://github.com/trussed-dev/serde-indexed/pull/2
+[#19]: https://github.com/trussed-dev/serde-indexed/pull/19
+[#11]: https://github.com/trussed-dev/serde-indexed/pull/11
+
 
 ## [v0.1.1][] (2024-04-03)
 
